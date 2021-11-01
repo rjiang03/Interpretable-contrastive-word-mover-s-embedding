@@ -83,8 +83,7 @@ def train(model, args, look_up, grade, length, weight, num_class):
             optimizer.zero_grad()
             anchor_out = model(look_up_train.cuda())
 
-            #loss_1 = criterion(anchor_out, length_train, grade_train, weight_train, model, num_class)
-            loss_1 = criterion(anchor_out, length_train, grade_train, weight_train, model, num_class, 0.001, 30)
+            loss_1 = criterion(anchor_out, length_train, grade_train, weight_train, model, num_class)
             loss = loss_1
             loss.backward()
             optimizer.step()

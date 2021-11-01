@@ -39,9 +39,8 @@ def DataLoader():
 def train(model, args, look_up, grade, length, weight, num_class):
     epoch_num = 50
     acc = np.zeros((epoch_num+1, 4))
-    for j in range(5): 
-        print(j)
-        tr_te_sp = j
+    for j in range(1): 
+        tr_te_sp = 0
         index_train = np.load('index_tr.npy')[tr_te_sp].astype(int)-1
         index_test = np.load('index_te.npy')[tr_te_sp].astype(int)-1
 

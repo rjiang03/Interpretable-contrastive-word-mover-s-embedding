@@ -17,7 +17,7 @@ Please put the data into the same path as 2 python files.<br />
 Use python run_pos.py to run the file.
 # Citation
 If you find this repo useful for your research, please consider citing the paper<br />
-
+```
 @misc{jiang2021interpretable,
     title={Interpretable contrastive word mover's embedding},
     author={Ruijie Jiang and Julia Gouvea and Eric Miller and David Hammer and Shuchin Aeron},
@@ -26,5 +26,6 @@ If you find this repo useful for your research, please consider citing the paper
     archivePrefix={arXiv},
     primaryClass={cs.CL}
 }
+```
 Any question please feel free to contact Ruijie Jiang (Ruijie.Jiang@tufts.edu).
 

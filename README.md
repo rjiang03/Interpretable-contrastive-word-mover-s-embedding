@@ -15,9 +15,9 @@ In the demo code we use BBCsports data set. The data is preprocessed and has bee
 https://drive.google.com/drive/folders/1GuQsHS1J8J24GnCmTCTDPH5hWWYtmw4s?usp=sharing <br />
 Please put the data into the same path as 2 python files.<br />
 Use 
-'''
+```
 python run_pos.py
-'''
+```
 to run the file.
 # Citation
 If you find this repo useful for your research, please consider citing the paper<br />
